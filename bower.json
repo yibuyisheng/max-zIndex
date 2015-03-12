@@ -1,0 +1,22 @@
+{
+  "name": "max-zindex",
+  "main": "index.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/yibuyisheng/max-zIndex",
+  "authors": [
+    "yibuyisheng <yibuyisheng@163.com>"
+  ],
+  "description": "find the element in the document that has the max z-index value",
+  "keywords": [
+    "z-index",
+    "zIndex"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
