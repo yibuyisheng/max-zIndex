@@ -1,0 +1,15 @@
+{
+  "name": "max-zIndex",
+  "version": "0.0.0",
+  "description": "find the element in the document that has the max z-index value",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "max",
+    "zIndex"
+  ],
+  "author": "yibuyisheng",
+  "license": "ISC"
+}
