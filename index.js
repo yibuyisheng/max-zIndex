@@ -9,11 +9,12 @@
         for (var i = 0, il = children.length; i < il; i += 1) {
             var zIndex;
             var child = children[i];
-            if (child.style.position === 'fixed'
-                || child.style.position === 'absolute'
-                || child.style.position === 'relative'
+            var childComputedStyle = window.getComputedStyle(child);
+            if (childComputedStyle.position === 'fixed'
+                || childComputedStyle.position === 'absolute'
+                || childComputedStyle.position === 'relative'
             ) {
-                zIndex = parseInt(child.style.zIndex) || 0;
+                zIndex = parseInt(childComputedStyle.zIndex) || 0;
             } else {
                 zIndex = findMaxZIndex(child);
             }
